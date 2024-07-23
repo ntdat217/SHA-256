@@ -1,0 +1,4 @@
+/home/dtvlsi/Desktop/NDT/sha256-thesis/src/rtl/sha256_core.v
+/home/dtvlsi/Desktop/NDT/sha256-thesis/src/rtl/sha256_k_constants.v
+/home/dtvlsi/Desktop/NDT/sha256-thesis/src/rtl/sha256_w_mem.v
+/home/dtvlsi/Desktop/NDT/sha256-thesis/src/tb/tb_sha256_core.v

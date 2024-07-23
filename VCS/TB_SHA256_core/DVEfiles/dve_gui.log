@@ -1,0 +1,24 @@
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2-9_Full64; Runtime version O-2018.09-SP2-9_Full64;  Jul 21 23:08 2024
+VCD+ Writer O-2018.09-SP2-9_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+The file '/home/dtvlsi/Desktop/NDT/sha256-thesis/VCS/TB_SHA256_core/inter.vpd' was opened successfully.
+   -- Testbench for sha256 core started --
+*** Toggle reset.
+*** TC 1 single block test case started.
+*** TC 1 successful.
+
+*** TC 2 double block test case started.
+*** TC 2 first block started.
+*** TC 2 first block done.
+*** TC 2 second block started.
+*** TC 2 second block done.
+*** TC 2 first block successful
+
+*** TC 2 second block successful
+
+*** All 02 test cases completed successfully
+*** Simulation done.
+$finish called from file "../../src/tb/tb_sha256_core.v", line 296.
+$finish at simulation time                  800
+Simulation complete, time is 800.

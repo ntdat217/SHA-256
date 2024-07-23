@@ -1,0 +1,5 @@
+Command Line: /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/bin/elabcom -logdir simv.daidir/elabcomLog -simvdaidir simv.daidir -lib simv.daidir/work -saveLevel -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -top tb_sha256_core -ssz -ssv -ssy -Lf work +disable_message+C00388+C00389
+uname(Linux localhost.localdomain 3.10.0-1160.99.1.el7.x86_64 #1 SMP Wed Sep 13 14:19:20 UTC 2023 x86_64)
+[INFO] error/warning message 'C00388' has been suppressed.
+[INFO] error/warning message 'C00389' has been suppressed.
+au time 0.051139 0.010206 0.017749 delta 94253056 94253056 total 186900480 186900480

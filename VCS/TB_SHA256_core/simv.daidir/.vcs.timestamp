@@ -1,0 +1,106 @@
+0 
+33
++itf+/home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/eda/synopsys/vcs/O-2018.09-SP2-9/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/libvirsim.so /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/liberrorinf.so /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/libsnpsmalloc.so /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/eda/synopsys/vcs/O-2018.09-SP2-9/include
+-Xufe=2steps
+-Xvcs_run_simv=1
+-debug_access+all+bc
+-debug_region+cell
+-f ../../src/rtl/filelist.f
+-full64
+-gen_obj
+-kdb
+-picarchive
+/home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/bin/vcs1
+../../src/rtl/filelist.f
+../../src/rtl/sha256_core.v
+../../src/tb/tb_sha256_core.v
+55
+XMODIFIERS=@im=ibus
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/dtvlsi/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-dtvlsi-dPsoqp/database
+WINDOWPATH=1
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/eda/synopsys/verdi/O-2018.09-SP2-9
+VCS_MODE_FLAG=64
+VCS_HOME=/home/eda/synopsys/vcs/O-2018.09-SP2-9
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=dtvlsi
+UNAME=/bin/uname
+TOOL_HOME=/home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64
+SYNOPSYS_LC_ROOT=/home/eda/synopsys/lc/O-2018.06-SP5-1/bin
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=2524
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2351,unix/unix:/tmp/.ICE-unix/2351
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.111
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/7e260415_6f7f_4cf1_9da9_2ac45026b060
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome-classic
+DESKTOP_SESSION=gnome-classic
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-eYFgbxQkuI,guid=c30ea9b9c62ffd2bd0bd1118669d17cd
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-eYFgbxQkuI,guid=c30ea9b9c62ffd2bd0bd1118669d17cd
+COLORTERM=truecolor
+0
+6
+1721573471 ../../src/tb/tb_sha256_core.v
+1720968364 ../../src/rtl/sha256_core.v
+1720968409 ../../src/rtl/sha256_w_mem.v
+1720968390 ../../src/rtl/sha256_k_constants.v
+1720690922 ../../src/rtl/filelist.f
+1575605830 /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/vcsdp.tab
+4
+1575608221 /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/libvirsim.so
+1575607396 /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/liberrorinf.so
+1575607331 /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/libsnpsmalloc.so
+1575607391 /home/eda/synopsys/vcs/O-2018.09-SP2-9/linux64/lib/libvfs.so
+1721578097 simv.daidir
+-1 partitionlib

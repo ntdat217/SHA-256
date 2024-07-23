@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : area
+Design : sha256_core
+Version: O-2018.06-SP5-5
+Date   : Thu Jul 18 16:54:47 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'sha256_core' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    saed32hvt_ss0p75v125c (File: /home/eda/libraries/SAED32_EDK_03312022/SAED32nm_EDK_01252022/lib/stdcell_hvt/db_ccs/saed32hvt_ss0p75v125c.db)
+
+Number of ports:                         1366
+Number of nets:                          8879
+Number of cells:                         7274
+Number of combinational cells:           6239
+Number of sequential cells:              1033
+Number of macros/black boxes:               0
+Number of buf/inv:                       1074
+Number of references:                      41
+
+Combinational area:              15317.258885
+Buf/Inv area:                     1532.234202
+Noncombinational area:            7350.861184
+Macro/Black Box area:                0.000000
+Net Interconnect area:            6367.847114
+
+Total cell area:                 22668.120069
+Total area:                      29035.967182
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ------------------
+sha256_core                       22668.1201    100.0   9809.1959  3707.4527  0.0000  sha256_core
+k_constants_inst                    812.4984      3.6    812.4984     0.0000  0.0000  sha256_k_constants
+w_mem_inst                         8338.9731     36.8   4695.5646  3643.4084  0.0000  sha256_w_mem
+--------------------------------  ----------  -------  ----------  ---------  ------  ------------------
+Total                                                  15317.2589  7350.8612  0.0000
+
+1

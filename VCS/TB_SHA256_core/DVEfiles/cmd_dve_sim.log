@@ -1,0 +1,26 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/dtvlsi/Desktop/NDT/sha256-thesis/VCS/TB_SHA256_core/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpv3Pc1G
+synUtils::sendTool -active {_icl_start_rpc -version "O-2018.09-SP2-9_Full64" -sync_file /tmp/vcs_dve_rpc.dtvlsi.7511}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.dtvlsi.7511}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+synopsys::dump -add {tb_sha256_core} -scope "." -depth 1 -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state

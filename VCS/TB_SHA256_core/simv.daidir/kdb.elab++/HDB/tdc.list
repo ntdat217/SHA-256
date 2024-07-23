@@ -1,0 +1,4 @@
+../../src/rtl/sha256_core.v
+../../src/rtl/sha256_k_constants.v
+../../src/rtl/sha256_w_mem.v
+../../src/tb/tb_sha256_core.v

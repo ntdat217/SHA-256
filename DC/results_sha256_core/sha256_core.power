@@ -1,0 +1,58 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : sha256_core
+Version: O-2018.06-SP5-5
+Date   : Thu Jul 18 16:54:48 2024
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p75v125c (File: /home/eda/libraries/SAED32_EDK_03312022/SAED32nm_EDK_01252022/lib/stdcell_hvt/db_ccs/saed32hvt_ss0p75v125c.db)
+
+
+Operating Conditions: ss0p75v125c   Library: saed32hvt_ss0p75v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+sha256_core            35000             saed32hvt_ss0p75v125c
+sha256_k_constants     8000              saed32hvt_ss0p75v125c
+sha256_w_mem           16000             saed32hvt_ss0p75v125c
+
+
+Global Operating Voltage = 0.75 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   0.0000 uW    (0%)
+  Net Switching Power  =  36.1008 uW  (100%)
+                         ---------
+Total Dynamic Power    =  36.1008 uW  (100%)
+
+Cell Leakage Power     = 672.1276 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            8.4546        1.7022e+08          178.6743  (  25.23%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.0000           27.6462        5.0191e+08          529.5540  (  74.77%)
+--------------------------------------------------------------------------------------------------
+Total              0.0000 uW        36.1008 uW     6.7213e+08 pW       708.2283 uW
+1
